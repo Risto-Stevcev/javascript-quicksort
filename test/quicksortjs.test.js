@@ -19,11 +19,11 @@ describe("quicksort", function() {
     before(setUp);
 
     it('quicksort should sort an array', function() {
-      quicksortjs.quicksort(originalArray).should.eql(expectedArray);
+      quicksortjs.sort(originalArray).should.eql(expectedArray);
     });
 
     it('quicksort should sort a string array', function() {
-      quicksortjs.quicksort(originalStringArray).should.eql(expectedStringArray);
+      quicksortjs.sort(originalStringArray).should.eql(expectedStringArray);
     });
 });
 
@@ -32,10 +32,10 @@ describe("quicksort2", function() {
     before(setUp);
 
     it('quicksort v2 should sort an array', function() {
-      quicksortjs.quicksort2(originalArray).should.eql(expectedArray);
+      quicksortjs.sort2(originalArray).should.eql(expectedArray);
     });
 
     it('quicksort v2 should sort a string array', function() {
-      quicksortjs.quicksort2(originalStringArray).should.eql(expectedStringArray);
+      quicksortjs.sort2(originalStringArray).should.eql(expectedStringArray);
     });
 });

@@ -7,13 +7,13 @@ if (process.argv.length > 2) {
   };
 
   if (process.argv[2] === '-v2' || process.argv[2] === '--version2')
-    console.log( quicksortjs.quicksort2(process.argv
-                                          .slice(3, process.argv.length)
-                                          .map(parseIntIfNum)) );
+    console.log( quicksortjs.sort2(process.argv
+                                     .slice(3, process.argv.length)
+                                     .map(parseIntIfNum)) );
   else
-    console.log( quicksortjs.quicksort(process.argv
-                                         .slice(2, process.argv.length)
-                                         .map(parseIntIfNum)) );
+    console.log( quicksortjs.sort(process.argv
+                                    .slice(2, process.argv.length)
+                                    .map(parseIntIfNum)) );
 }
 else {
   console.log('Usage:\n' +

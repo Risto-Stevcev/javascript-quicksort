@@ -1,25 +1,44 @@
-# QuickSort
+# QuicksortJs
 
-[![Build Status](https://travis-ci.org/Risto-Stevcev/javascript-quicksort.svg?branch=master)](https://travis-ci.org/Risto-Stevcev/javascript-quicksort)
+  A quicksort implementation in JavaScript. 
 
-QuickSort implementation in JavaScript. There are two implementations of quicksort. ``quicksort`` is a functional 
-implementation that chooses the first element as the pivot. ``quicksort2`` is an imperative approach that chooses a 
-random pivot. Running time wasn't too bad on Firefox's SpiderMonkey engine:
+  [![NPM Version][npm-image]][npm-url]
+  [![NPM Downloads][downloads-image]][downloads-url]
+  [![Build Status][travis-image]][travis-url]
 
-``quicksort``, a functional implementation w/ first element as pivot:
+- ``quicksortjs.sort`` is a functional implementation that chooses the first element as the pivot. 
 
-    timing quicksort: 1406.68ms
+- ``quicksortjs.sort2`` is an imperative approach that chooses a random pivot. 
 
-``quicksort2``, an imperative implementation w/ a random pivot:
+## Benchmarks
 
-    timing quicksort2: 724.75ms
-    
-Updated with nodejs:
+Firefox (SpiderMonkey):
 
-  ```bash
-  $ time cat IntArray.txt | xargs quicksortjs
+```
+quicksortjs.sort:  1406.68ms
+quicksortjs.sort2: 724.75ms
+```
+
+NodeJS (V8):
+
+```
+$ time cat IntArray.txt | xargs quicksortjs
   
-  real	0m2.390s
-  user	0m1.037s
-  sys	0m0.087s
-  ```
+real    0m2.390s
+user    0m1.037s
+sys	 0m0.087s
+```
+```
+$ time cat IntArray.txt | xargs quicksortjs -v2
+
+real    0m2.329s
+user    0m0.727s
+sys	 0m0.077s
+```
+  
+[npm-image]: https://img.shields.io/npm/v/quicksortjs.svg?style=flat
+[npm-url]: https://npmjs.org/package/quicksortjs
+[downloads-image]: https://img.shields.io/npm/dm/quicksortjs.svg?style=flat
+[downloads-url]: https://npmjs.org/package/express
+[travis-image]: https://travis-ci.org/Risto-Stevcev/javascript-quicksort.svg?branch=master
+[travis-url]: https://travis-ci.org/Risto-Stevcev/javascript-quicksort
