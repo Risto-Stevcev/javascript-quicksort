@@ -1,0 +1,31 @@
+{
+  "name": "quicksortjs",
+  "version": "0.0.1",
+  "author": "Risto Stevcev <risto1@gmail.com>",
+  "description": "A quicksort implementation in javascript",
+  "license": "BSD",
+  "main": "./lib/quicksortjs.js",
+  "bin": "./bin/quicksortjs.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "engines": {
+    "node": ">= 0.10.0 <0.10.33"
+  },
+  "directories": { 
+    "doc": "./doc",
+    "lib": "./lib"
+  },
+  "keywords": [
+    "quicksort",
+    "qsort",
+    "sort",
+    "sorting",
+    "algorithm",
+    "algorithms"
+  ],
+  "devDependencies": {
+    "mocha": "^1.21.5",
+    "should": "^4.1.0"
+  }
+}
