@@ -40,5 +40,5 @@ sys	 0m0.077s
 [npm-url]: https://npmjs.org/package/quicksortjs
 [downloads-image]: https://img.shields.io/npm/dm/quicksortjs.svg?style=flat
 [downloads-url]: https://npmjs.org/package/express
-[travis-image]: https://travis-ci.org/Risto-Stevcev/javascript-quicksort.svg?branch=master
+[travis-image]: https://img.shields.io/travis/Risto-Stevcev/javascript-quicksort.svg?style=flat
 [travis-url]: https://travis-ci.org/Risto-Stevcev/javascript-quicksort
