@@ -10,6 +10,7 @@
     "type" : "git", 
     "url" : "Risto-Stevcev/javascript-quicksort"
   },
+  "homepage": "http://risto-stevcev.github.io/javascript-quicksort/",
   "scripts": {
     "test": "mocha"
   },
