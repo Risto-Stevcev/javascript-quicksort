@@ -1,6 +1,8 @@
 'use strict';
 var should = require('should');
-var quicksortjs = require('../lib/quicksortjs.js');
+var quicksortjs = process.env.JSCOV ?
+                  require('../lib-cov/quicksortjs.js') :
+                  require('../lib/quicksortjs.js');
 
 
 var originalArray, expectedArray,
@@ -12,10 +14,10 @@ var setUp = function() {
 
   originalStringArray = [ 'foo', 'bar', 'baz', 'baa', 'hello', 'world' ];
   expectedStringArray = [ 'baa', 'bar', 'baz', 'foo', 'hello', 'world' ];
-}
+};
 
 
-describe("quicksort", function() {
+describe('quicksort', function() {
     before(setUp);
 
     it('quicksort should sort an array', function() {
@@ -28,7 +30,7 @@ describe("quicksort", function() {
 });
 
 
-describe("quicksort2", function() {
+describe('quicksort2', function() {
     before(setUp);
 
     it('quicksort v2 should sort an array', function() {

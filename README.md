@@ -5,6 +5,8 @@
   [![NPM Version][npm-image]][npm-url]
   [![NPM Downloads][downloads-image]][downloads-url]
   [![Build Status][travis-image]][travis-url]
+  [![Test Coverage][coverage-image]][coverage-url]
+  [![Code Climate][climate-image]][climate-url]
 
 - ``quicksortjs.sort`` is a functional implementation that chooses the first element as the pivot. 
 
@@ -42,3 +44,7 @@ sys	 0m0.077s
 [downloads-url]: https://npmjs.org/package/express
 [travis-image]: https://img.shields.io/travis/Risto-Stevcev/javascript-quicksort.svg?style=flat
 [travis-url]: https://travis-ci.org/Risto-Stevcev/javascript-quicksort
+[coverage-image]: https://img.shields.io/codeclimate/coverage/github/Risto-Stevcev/javascript-quicksort.svg?style=flat
+[coverage-url]: https://codeclimate.com/github/Risto-Stevcev/javascript-quicksort
+[climate-image]: https://img.shields.io/codeclimate/github/Risto-Stevcev/javascript-quicksort.svg?style=flat
+[climate-url]: https://codeclimate.com/github/Risto-Stevcev/javascript-quicksort
