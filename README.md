@@ -7,6 +7,7 @@
   [![Build Status][travis-image]][travis-url]
   [![Test Coverage][coverage-image]][coverage-url]
   [![Code Climate][climate-image]][climate-url]
+  [![Coveralls][coveralls-image]][coveralls-url]
 
 - ``quicksortjs.sort`` is a functional implementation that chooses the first element as the pivot. 
 
@@ -48,3 +49,5 @@ sys	 0m0.077s
 [coverage-url]: https://codeclimate.com/github/Risto-Stevcev/javascript-quicksort
 [climate-image]: https://img.shields.io/codeclimate/github/Risto-Stevcev/javascript-quicksort.svg?style=flat
 [climate-url]: https://codeclimate.com/github/Risto-Stevcev/javascript-quicksort
+[coveralls-image]: https://img.shields.io/coveralls/Risto-Stevcev/javascript-quicksort.svg?style=flat
+[coveralls-url]: https://coveralls.io/r/Risto-Stevcev/javascript-quicksort?branch=master

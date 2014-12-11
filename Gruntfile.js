@@ -72,7 +72,7 @@ module.exports = function (grunt) {
       done(); // or done(false); in case of error
   });
 
-  grunt.registerTask('codecoverage', ['coveralls:basic_test', 'codeclimate']);
+  grunt.registerTask('codecoverage', ['coveralls', 'codeclimate']);
   grunt.registerTask('default', [ 'clean', 
                                   'jshint', 
                                   'simplemocha', 
